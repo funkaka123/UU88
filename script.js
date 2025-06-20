@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', () => {
   loginBtn.addEventListener('click', () => {
     const u = loginUser.value.trim();
     const p = loginPass.value.trim();
-    if (u === 'funkaka123' && p === '1Minhtao') {
+    if (u === 'funkaka123' && p === 'Aa123456') {
       loginOverlay.style.display = 'none';
       initApp();
     } else {
